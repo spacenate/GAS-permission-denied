@@ -1,8 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script type="text/javascript">
+      function callTestFunc() {
+        google.script.run.withSuccessHandler(updateResult).testFunc();
+      }
+      function updateResult(result) {
+        document.getElementById('result').innerText = result;
+      }
+    </script>
   </head>
   <body>
-    <button onclick="google.script.run.testFunc()">Button 1</button>
+    <button onclick="callTestFunc()">Button 1</button>
+    <p id="result"></p>
   </body>
 </html>

@@ -16,5 +16,6 @@ function onOpen(e) {
 }
 
 function testFunc() {
-  console.log('Success');
+  console.log('success');
+  return 'Hello from Apps Script';
 }
