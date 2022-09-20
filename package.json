@@ -1,0 +1,14 @@
+{
+  "name": "gas-permission-denied",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "npx clasp push -f"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@google/clasp": "^2.4.1"
+  }
+}
