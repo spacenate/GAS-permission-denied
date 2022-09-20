@@ -10,4 +10,4 @@ Minimal reproduction of GAS V8 bug
 5. Wait for the template to be copied and the "Document add-ons" sidebar to open
 6. Click the 'Use' button, see console errors reported: `We're sorry, a server error occurred while reading from storage. Error code PERMISSION_DENIED.`
 
-For contrast, try using the Add-On through the menu bar, and it works as expected. Only the 'Use' button is broken.
+For contrast, try using the Add-On through the menu bar, and it works as expected. Only the 'Use' button is broken (and only when using the V8 runtime)
